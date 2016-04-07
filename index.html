@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/flickity.css">
   </head>
+
   <body>
-    <div class="overlay"></div>
-    <div class="text">
-      <h1 class="name">Jason Statham</h1>
-      <p class="quote">Your body is like a piece of dynamite. You can tap it with a pencil all day, but you'll never make it explode. You hit it once with a hammer: Bang! Get serious.</p>
-      <p class="tags">Focus, Intensity</p>
+
+  <div class="gallery js-flickity">
+    <div class="gallery-cell">
+      <div class="quote">
+        <div class="overlay"></div>
+        <div class="text">
+          <h1 class="text__name">Jason Statham</h1>
+          <p class="text__quote">"Your body is like a piece of dynamite. You can tap it with a pencil all day, but you'll never make it explode. You hit it once with a hammer: Bang! Get serious."</p>
+          <p class="text__tags">Focus, Intensity</p>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-cell">
+      <div class="quote quote--jobs">
+        <div class="overlay"></div>
+        <div class="text">
+          <h1 class="text__name">Steve Jobs</h1>
+          <p class="text__quote">"You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future."</p>
+          <p class="text__tags">Confidence</p>
+        </div>
+      </div>
+    </div>
   </div>
+
+
+
+  <script src="/assets/js/flickity.pkgd.min.js"></script>
+
   </body>
+
 </html>
