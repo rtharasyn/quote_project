@@ -3,17 +3,30 @@ html {
 }
 
 body {
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont;
+  margin: 0;
+}
+
+.quote {
   background-image: url("/assets/images/Jason-Statham-Bond.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  font-family: -apple-system;
   position: relative;
-  margin: 0;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quote--jobs {
+  background-image: url("/assets/images/Steve-Jobs.jpg");
+}
+
+.gallery{
+  height: 100%;
 }
 
 .text {
@@ -23,12 +36,12 @@ max-width: 64ch;
 position: relative;
 }
 
-.name {
+.text__name {
   font-size: 1rem;
   font-weight: normal;
 }
 
-.quote  {
+.text__quote  {
 font-size: 1rem;
 font-weight: lighter;
 color: #A7A7A7;
@@ -37,7 +50,7 @@ min-height: 6rem;
 margin-bottom: 4rem;
 }
 
-.tags {
+.text__tags {
   font-size: .75rem;
   font-weght: normal;
   opacity: .25;
