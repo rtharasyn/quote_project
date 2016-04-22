@@ -45,6 +45,7 @@ http://flickity.metafizzy.co
 /* ---- previous/next buttons ---- */
 
 .flickity-prev-next-button {
+  display: none;
   position: absolute;
   top: 50%;
   width: 44px;
@@ -113,7 +114,7 @@ http://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: -25px;
+  bottom: 1rem;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -128,7 +129,7 @@ http://flickity.metafizzy.co
   width: 10px;
   height: 10px;
   margin: 0 8px;
-  background: #333;
+  background: #fff;
   border-radius: 50%;
   filter: alpha(opacity=25); /* IE8 */
   opacity: 0.25;
