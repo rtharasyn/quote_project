@@ -39,7 +39,7 @@ body {
 
 .text {
   color: #fff;
-  padding: 0 2.5rem 3rem;
+  padding: 0 2.5rem 3.5rem;
   max-width: 64ch;
   position: relative;
 }
@@ -47,13 +47,15 @@ body {
 .text__name {
   font-size: 1rem;
   font-weight: normal;
+  margin-bottom: -.25rem;
 }
 
 .text__quote {
-  font-size: 1rem;
+  font-size: 1.55rem;
+  font-style: italic;
   font-weight: lighter;
-  color: #A7A7A7;
-  line-height: 1.625;
+  color: #fff;
+  line-height: 1.5;
   min-height: 6rem;
   margin-bottom: 4rem;
 }
