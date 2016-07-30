@@ -25,6 +25,14 @@ body {
   background-image: url("/assets/images/Steve-Jobs.jpg");
 }
 
+.quote--pool {
+  background-image: url("/assets/images/Deadpool.jpg");
+}
+
+.quote--aristotle {
+  background-image: url("/assets/images/Ari.jpg");
+}
+
 .gallery {
   height: 100%;
 }
