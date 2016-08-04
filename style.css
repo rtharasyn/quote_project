@@ -9,22 +9,24 @@ body {
 
 .site {
   height: 100vh;
+  background: black;
 }
 
 .site-content {
   flex: 1;
 }
 
-.header {
-  margin: 0;
-  background-color: black;
-  text-align: right;
-}
-
 /* The Button Style */
 #myBtn {
   border: none;
-  background-color: white;
+  background: none;
+  color: white;
+  opacity: .65;
+  position: absolute;
+  font-size: .75rem;
+  padding: 1.5rem;
+  z-index: 1;
+  right: 0;
 }
 
 /* The Modal (background) */
@@ -43,27 +45,59 @@ body {
   /* Full width */
   height: 100%;
   /* Full height */
-  overflow: auto;
+  overflow-y: scroll;
   /* Enable scroll if needed */
+  -webkit-overflow-scrolling: touch;
   background-color: #000;
   /* Fallback color */
 }
 
 /* Modal Content */
+.modal-content {
+  margin: auto;
+  padding: 3rem 2.25rem;
+  max-width: 500px;
+}
+
+.modal-body {
+  color: white;
+  opacity: .5;
+  font-weight: lighter;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.modal-headline {
+  color: white;
+  font-weight: normal;
+  font-size: 1.125rem;
+  padding-bottom: 1.25rem;
+  padding-top: 2.5rem;
+}
+
+.modal-logo {
+  color: white;
+  font-weight: bolder;
+  font-size: 2.25rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+}
+
 /* The Close Button */
 .close {
   color: #fff;
   float: right;
-  font-size: 28px;
-  font-weight: bold;
-  padding: 1rem;
+  font-size: 4rem;
+  font-weight: lighter;
+  padding-right: 1rem;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
+  opacity: .5;
 }
 
 .quote {
@@ -130,7 +164,7 @@ body {
 }
 
 .overlay {
-  background-image: linear-gradient(-180deg, transparent 44%, #000000 100%);
+  background-image: linear-gradient(-180deg, transparent 45%, #000000 100%);
   position: absolute;
   top: 0;
   right: 0;
@@ -146,5 +180,5 @@ body {
   left: 0;
   bottom: 0;
   background-color: #000;
-  opacity: .25;
+  opacity: .50;
 }
