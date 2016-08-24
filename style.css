@@ -129,6 +129,10 @@ body {
   background-image: url("/assets/images/alan_kay.jpg");
 }
 
+.quote--pete {
+  background-image: url("/assets/images/Pete_Carroll.jpg");
+}
+
 .gallery {
   height: 100%;
 }
