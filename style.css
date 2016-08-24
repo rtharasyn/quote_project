@@ -126,11 +126,15 @@ body {
 }
 
 .quote--alankay {
-  background-image: url("/assets/images/alan_kay.jpg");
+  background-image: url("/assets/images/Alan_Kay.jpg");
 }
 
 .quote--pete {
   background-image: url("/assets/images/Pete_Carroll.jpg");
+}
+
+.quote--henry {
+  background-image: url("/assets/images/henry_ford.jpg");
 }
 
 .gallery {
