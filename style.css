@@ -1,20 +1,16 @@
 html {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont;
-  margin: 0;
-}
+  margin: 0; }
 
 .site {
   height: 100vh;
-  background: black;
-}
+  background: black; }
 
 .site-content {
-  flex: 1;
-}
+  flex: 1; }
 
 /* The Button Style */
 #myBtn {
@@ -26,8 +22,7 @@ body {
   font-size: .75rem;
   padding: 1.5rem;
   z-index: 1;
-  right: 0;
-}
+  right: 0; }
 
 /* The Modal (background) */
 .modal {
@@ -49,39 +44,34 @@ body {
   /* Enable scroll if needed */
   -webkit-overflow-scrolling: touch;
   background-color: #000;
-  /* Fallback color */
-}
+  /* Fallback color */ }
 
 /* Modal Content */
 .modal-content {
   margin: auto;
   padding: 3rem 2.25rem;
-  max-width: 500px;
-}
+  max-width: 500px; }
 
 .modal-body {
   color: white;
   opacity: .5;
   font-weight: lighter;
   font-size: 1rem;
-  line-height: 1.5rem;
-}
+  line-height: 1.5rem; }
 
 .modal-headline {
   color: white;
   font-weight: normal;
   font-size: 1.125rem;
   padding-bottom: 1.25rem;
-  padding-top: 2.5rem;
-}
+  padding-top: 2.5rem; }
 
 .modal-logo {
   color: white;
   font-weight: bolder;
   font-size: 2.25rem;
   padding-bottom: 2.5rem;
-  padding-top: 2.5rem;
-}
+  padding-top: 2.5rem; }
 
 /* The Close Button */
 .close {
@@ -89,16 +79,14 @@ body {
   float: right;
   font-size: 4rem;
   font-weight: lighter;
-  padding-right: 1rem;
-}
+  padding-right: 1rem; }
 
 .close:hover,
 .close:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-  opacity: .5;
-}
+  opacity: .5; }
 
 .quote {
   background-image: url("/assets/images/Jason-Statham-Bond.jpg");
@@ -110,50 +98,43 @@ body {
   align-items: flex-end;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
-}
+  width: 100vw; }
 
 .quote--jobs {
-  background-image: url("/assets/images/Steve-Jobs.jpg");
-}
+  background-image: url("/assets/images/Steve-Jobs.jpg"); }
 
 .quote--pool {
-  background-image: url("/assets/images/Deadpool.jpg");
-}
+  background-image: url("/assets/images/Deadpool.jpg"); }
 
 .quote--aristotle {
-  background-image: url("/assets/images/Ari.jpg");
-}
+  background-image: url("/assets/images/Ari.jpg"); }
 
 .quote--alankay {
-  background-image: url("/assets/images/Alan_Kay.jpg");
-}
+  background-image: url("/assets/images/Alan_Kay.jpg"); }
 
 .quote--pete {
-  background-image: url("/assets/images/Pete_Carroll.jpg");
-}
+  background-image: url("/assets/images/Pete_Carroll.jpg"); }
 
 .quote--henry {
-  background-image: url("/assets/images/henry_ford.jpg");
-}
+  background-image: url("/assets/images/henry_ford.jpg"); }
+
+.quote--conor {
+  background-image: url("/assets/images/conor_mcgregor.jpg"); }
 
 .gallery {
-  height: 100%;
-}
+  height: 100%; }
 
 .text {
   color: #fff;
   padding: 0 2.5rem 3.5rem;
   max-width: 64ch;
-  position: relative;
-}
+  position: relative; }
 
 .text__name {
   font-size: .9rem;
   font-weight: normal;
   margin-bottom: .5rem;
-  opacity: .5;
-}
+  opacity: .5; }
 
 .text__quote {
   font-size: 1.55rem;
@@ -162,14 +143,12 @@ body {
   color: #fff;
   line-height: 1.5;
   min-height: 6rem;
-  margin-bottom: 4rem;
-}
+  margin-bottom: 4rem; }
 
 .text__tags {
   font-size: .75rem;
   font-weght: normal;
-  opacity: .25;
-}
+  opacity: .25; }
 
 .overlay {
   background-image: linear-gradient(-180deg, transparent 45%, #000000 100%);
@@ -177,16 +156,13 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  bottom: 0;
-}
-
-.overlay::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: #000;
-  opacity: .50;
-}
+  bottom: 0; }
+  .overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .50; }
